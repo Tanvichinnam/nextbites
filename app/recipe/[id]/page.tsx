@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { recipes, getRecipe } from "../../data/recipes";
 
+export const instant = false;
+
 export function generateStaticParams() {
   return recipes.map((r) => ({ id: r.id }));
 }
