@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextBites",
-  description: "Browse tasty recipes",
+  title: "NextBites – Quick & Tasty Recipes",
+  description: "Browse and search easy recipes from Italian, Indian, Chinese and more.",
 };
 
 export default function RootLayout({
@@ -32,4 +32,5 @@ export default function RootLayout({
     </html>
   );
 }
+
 
